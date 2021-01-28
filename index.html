@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Fictional Company X</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col img">
+            <img src="images/laptop-background.jpeg" class="img-fluid" alt="laptop">
+            <p>Here are two grid layouts that apply to every device and viewport, from xs to xxl. Add any number of unit-less classes for each breakpoint you need and every column will be the same width.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum massa dolor, facilisis nec volutpat ut, suscipit a ligula. 
+                Aenean eu suscipit enim. Maecenas neque felis, tincidunt ut nisl vitae, dictum tempus augue. Cras varius justo a justo ullamcorper, eu ullamcorper elit eleifend. 
+                In quis lectus mauris. Nulla non malesuada lectus, at mollis mauris. Ut eu arcu at tortor congue suscipit. 
+                Nunc ut gravida velit. Sed sodales sem at vestibulum semper. Suspendisse ante neque, egestas in leo a, dapibus condimentum urna. Fusce ultricies odio enim, luctus blandit risus luctus nec. Nulla facilisi. 
+                Etiam non elementum elit, non tempor nisl. Morbi tristique efficitur magna, sed lacinia dui pellentesque eget.</p>
+
+                <div class="mb-3 email">
+                    <h5>Contact us!</h5>
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com">
+                  </div>
+                  <div class="mb-3 text">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button class="btn btn-outline-success my-sm-0 sendbtn" type="submit">Send</button>
+          </div>
+          <div class="col">
+            <p>In auctor dignissim massa, et ullamcorper orci mattis nec. Quisque non nibh at lacus lacinia ultricies. Nulla id tempus augue. 
+                Integer at sapien diam. Pellentesque tristique est nisi. Nullam mauris ligula, varius vel mauris sed, ultricies fermentum nisl. 
+                Proin non enim ullamcorper lorem euismod semper a a dolor. Suspendisse ante arcu, euismod tristique lectus quis, vehicula molestie purus. 
+                Praesent sed nulla interdum, laoreet metus vel, dignissim justo. Proin nec luctus diam. Aenean ex odio, tincidunt nec varius volutpat, porta non risus. 
+                Vestibulum purus nisl, imperdiet non est sed, ullamcorper pharetra tortor. Etiam in augue non elit egestas fermentum. Etiam ultrices posuere tincidunt.</p>
+            <img src="images/man-in-snow.jpg" class="img-fluid mx-auto d-block" alt="Man in snowy woods">
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mark.otto@something.com</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>jacob.thornton@random.net</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>larrythebird@genericemail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+            <div class="row footer">
+                Fictional Company X <br>
+                Spaceroad 1678, Moon
+             </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

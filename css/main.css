@@ -1,0 +1,38 @@
+.dropdown-menu {
+    background-color: rgb(52, 58, 64);
+}
+.dropdown-item {
+    color: white;
+}
+.btn-outline-success {
+    color: skyblue;
+    border-color: skyblue;
+}
+.btn:hover {
+    background-color: skyblue;
+    color:  rgb(52, 58, 64);
+}
+.col {
+    padding: 5px;
+    background-color: rgb(190, 190, 190);
+}
+.email {
+    width: 300px;
+}
+.text {
+    width: 600px;
+}
+.sendbtn {
+    background-color: rgb(52, 58, 64);
+    color: white;
+    border-color: white;
+}
+.footer {
+    background-color: rgb(52, 58, 64);
+    bottom: auto;
+    height: 50px;
+    color: white;
+}
+.table {
+    width: 1300px;
+}
